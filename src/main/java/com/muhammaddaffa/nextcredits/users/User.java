@@ -6,7 +6,7 @@ public class User {
 
     private final UUID uuid;
 
-    private double credits;
+    private int credits;
 
     public User(UUID uuid) {
         this.uuid = uuid;
@@ -16,19 +16,19 @@ public class User {
         return uuid;
     }
 
-    public double getCredits() {
+    public int getCredits() {
         return credits;
     }
 
-    public void setCredits(double credits) {
+    public void setCredits(int credits) {
         this.credits = credits;
     }
 
-    public void addCredits(double credits) {
+    public void addCredits(int credits) {
         this.credits += credits;
     }
 
-    public void removeCredits(double credits) {
+    public void removeCredits(int credits) {
         this.credits -= credits;
     }
 

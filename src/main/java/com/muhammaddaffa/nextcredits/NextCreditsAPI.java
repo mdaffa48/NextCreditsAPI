@@ -10,16 +10,16 @@ public interface NextCreditsAPI {
 
     int getCredits(UUID uuid);
 
-    void addCredits(Player player);
+    void addCredits(Player player, int credits);
 
-    void addCredits(UUID uuid);
+    void addCredits(UUID uuid, int credits);
 
-    void removeCredits(Player player);
+    void removeCredits(Player player, int credits);
 
-    void removeCredits(UUID uuid);
+    void removeCredits(UUID uuid, int credits);
 
-    void setCredits(Player player);
+    void setCredits(Player player, int credits);
 
-    void setCredits(UUID uuid);
+    void setCredits(UUID uuid, int credits);
 
 }
