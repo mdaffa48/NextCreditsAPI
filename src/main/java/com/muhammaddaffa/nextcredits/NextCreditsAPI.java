@@ -6,20 +6,20 @@ import java.util.UUID;
 
 public interface NextCreditsAPI {
 
-    int getCredits(Player player);
+    double getCredits(Player player);
 
-    int getCredits(UUID uuid);
+    double getCredits(UUID uuid);
 
-    void addCredits(Player player, int credits);
+    void addCredits(Player player, double credits);
 
-    void addCredits(UUID uuid, int credits);
+    void addCredits(UUID uuid, double credits);
 
-    void removeCredits(Player player, int credits);
+    void removeCredits(Player player, double credits);
 
-    void removeCredits(UUID uuid, int credits);
+    void removeCredits(UUID uuid, double credits);
 
-    void setCredits(Player player, int credits);
+    void setCredits(Player player, double credits);
 
-    void setCredits(UUID uuid, int credits);
+    void setCredits(UUID uuid, double credits);
 
 }

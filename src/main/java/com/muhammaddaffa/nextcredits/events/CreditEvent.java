@@ -8,18 +8,18 @@ import org.bukkit.event.player.PlayerEvent;
 public class CreditEvent extends PlayerEvent implements Cancellable {
 
     private boolean cancelled = false;
-    private int amount;
+    private double amount;
 
-    public CreditEvent(Player who, int amount) {
+    public CreditEvent(Player who, double amount) {
         super(who);
         this.amount = amount;
     }
 
-    public int getAmount() {
+    public double getAmount() {
         return amount;
     }
 
-    public void setAmount(int amount) {
+    public void setAmount(double amount) {
         this.amount = amount;
     }
 
