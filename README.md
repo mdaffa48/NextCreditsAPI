@@ -10,6 +10,7 @@
 <dependency>
   <groupId>com.github.mdaffa48</groupId>
   <artifactId>NextCreditsAPI</artifactId>
-  <version>Tag</version>
+  <version>VERSION</version>
+  <scope>provided</scope>
 </dependency>
 ```
